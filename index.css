@@ -159,6 +159,34 @@ li a:hover {
     box-shadow: 0 0 20px var(--primary-color);
     transition: all .3s ease-in-out;
 }
+.download-btn {
+            padding: 15px 30px;
+            font-size: 18px;
+            background-color: #4CAF50;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            position: relative;
+            transition: all 0.3s;
+            text-decoration: none;
+            animation: glow 1.5s infinite alternate;
+}
+
+.download-btn:hover {
+        animation: glow 1s infinite;
+        transform: scale(1.05);
+}
+
+@keyframes glow {
+    0% {
+        box-shadow: 0 0 10px #4CAF50;
+    }
+    100% {
+        box-shadow: 0 0 20px #4CAF50,
+                  0 0 30px #4CAF50;
+    }
+}
 
 
 .images {
