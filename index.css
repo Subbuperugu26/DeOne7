@@ -168,7 +168,7 @@ li a:hover {
             border: none;
             border-radius: 5px;
             cursor: pointer;
-            position: relative;
+            position: center;
             transition: all 0.3s;
             text-decoration: none;
             animation: glow 1.5s infinite alternate;
