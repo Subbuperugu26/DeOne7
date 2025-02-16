@@ -159,6 +159,16 @@ li a:hover {
     box-shadow: 0 0 20px var(--primary-color);
     transition: all .3s ease-in-out;
 }
+
+.download-btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    
+    background-color: #f9532d;
+
+}
 .download-btn {
             padding: 15px 30px;
             font-size: 18px;
