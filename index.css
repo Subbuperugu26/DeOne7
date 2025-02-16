@@ -162,6 +162,7 @@ li a:hover {
 .download-btn {
             padding: 15px 30px;
             font-size: 18px;
+            place-items: center;
             background-color: #4CAF50;
             color: white;
             border: none;
